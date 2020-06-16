@@ -1,0 +1,21 @@
+@import './logo.css';
+
+.header{
+    width: 100%;
+    min-height: 60vh;
+    text-align: center;
+}
+.parallax{
+    background-image: url('../../../assets/background.jpg');
+    height: 150vh;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.parallax img{
+    height: 10vh;
+}
